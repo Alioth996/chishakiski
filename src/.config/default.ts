@@ -5,29 +5,29 @@ import type { ThemeConfig } from '~/types'
 
 export const defaultConfig: ThemeConfig = {
   site: {
-    title: '活版印字',
-    subtitle: 'Typography',
-    author: 'Moeyua',
+    title: '雪千希',
+    subtitle: 'Chishakiski',
+    author: 'chishakiski',
     description: 'Rediscory the beauty of typography',
-    website: 'https://astro-theme-typography.vercel.app/',
+    website: 'https://chishakiski.pages.dev/',
     pageSize: 5,
     socialLinks: [
       {
         name: 'github',
-        href: 'https://github.com/moeyua/astro-theme-typography',
+        href: 'https://github.com/Alioth996/chishakiski',
       },
       {
         name: 'rss',
         href: '/atom.xml',
       },
-      {
-        name: 'twitter',
-        href: 'https://github.com/moeyua/astro-theme-typography',
-      },
-      {
-        name: 'mastodon',
-        href: 'https://github.com/moeyua/astro-theme-typography',
-      },
+      // {
+      //   name: 'twitter',
+      //   href: '#',
+      // },
+      // {
+      //   name: 'mastodon',
+      //   href: '#',
+      // },
     ],
     navLinks: [
       {
@@ -35,7 +35,7 @@ export const defaultConfig: ThemeConfig = {
         href: '/',
       },
       {
-        name: 'Archive',
+        name: '随笔',
         href: '/archive',
       },
       {
@@ -43,7 +43,7 @@ export const defaultConfig: ThemeConfig = {
         href: '/categories',
       },
       {
-        name: 'About',
+        name: '关于',
         href: '/about',
       },
     ],
@@ -72,7 +72,7 @@ export const defaultConfig: ThemeConfig = {
     },
   },
   seo: {
-    twitter: '@moeyua13',
+    twitter: '',
     meta: [],
     link: [],
   },
