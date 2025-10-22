@@ -1,7 +1,7 @@
 ---
 title: 你好! 陌生人
 pubDate: 2025-10-19
-categories: ['Articles']
+categories: ['你好']
 description: ''
 slug: hometown
 ---
